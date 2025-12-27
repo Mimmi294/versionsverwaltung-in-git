@@ -1,3 +1,42 @@
+:root {
+  font-family: Georgia;
+  background-color: azure;
+}
+
+#header {
+  background-color: rgb(149, 174, 182)
+  ;
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+  color: black;
+}
+
+#top-title {
+  text-align: center;
+}
+
+
+#section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#nav {
+  float: left;
+  width: 180px;
+  height: 900px;
+  background: rgb(169, 197, 206);
+  padding: 10px;
+}
+
+#ul {
+  list-style-type: none;
+  padding: 0;
+  width: 5%;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -5,14 +44,13 @@
 
 .container {
   padding: min(5em, 8%);
-  width: 700px;
-  background-color: var(white);
+  width: 1000px;
+  background-color: rgb(186, 239, 255);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
   border-radius: 1em;
-  align-self: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0;
 }
 
 .column {
