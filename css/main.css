@@ -6,8 +6,7 @@
 }
 
 #header {
-  background-color: rgb(149, 174, 182)
-  ;
+  background-color: rgb(149, 174, 182);
   padding: 20px;
   text-align: center;
   font-size: 22px;
@@ -46,6 +45,8 @@
 
 .column:target{
   display: flex;
+  gap: 20px;
+  align-items: flex-start;
 }
 
 .container {
@@ -62,4 +63,23 @@
 .topic-content {
   display: flex;
   flex-direction: row;
+}
+
+.gruender-layout {
+  display: flex;
+  align-items: start;
+}
+
+.gruender-text {
+  flex: 2;
+}
+
+.gruender-image {
+  flex: 1;
+}
+
+.gruender-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1.5em;
 }
