@@ -27,7 +27,7 @@
 #nav {
   float: left;
   width: 180px;
-  height: 900px;
+  height: 550px;
   background: rgb(169, 197, 206);
   padding: 10px;
 }
@@ -52,12 +52,16 @@
 .container {
   padding: min(5em, 8%);
   width: 1000px;
+  height: 550px;
+  max-height: 400px;
   background-color: rgb(186, 239, 255);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
   border-radius: 1em;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 0;
+  overflow-y: scroll;
+
 }
 
 .topic-content {
